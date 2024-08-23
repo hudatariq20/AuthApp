@@ -1,9 +1,5 @@
+
 # Flutter Firebase Authentication with BLoC and Clean Architecture
-
-
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 ## Project Overview
 
@@ -25,8 +21,8 @@ This Flutter project demonstrates the implementation of Firebase Authentication 
 **1. Clone the Repository:**  
 
 ```sh
-  git clone https://github.com/yourusername/flutter-firebase-auth-bloc.git
-  cd flutter-firebase-auth-bloc
+  git clone https://github.com/hudatariq20/AuthApp
+  cd auth_ui
 ```
 
 **2. Install Dependencies:**
@@ -57,7 +53,49 @@ flutter run
         - lib/data/
 
 ## Directory Structure
-
+```
+├── data
+│   └── repositories
+│       ├── auth
+│       │   ├── auth_repository.dart
+│       │   └── base_auth_respository.dart
+│       └── user
+│           ├── base_user_repository.dart
+│           └── user_repository.dart
+├── domain
+│   └── models
+│       └── user.dart    
+└── presentation
+    ├── blocs
+    │   ├── auth
+    │   │   ├── auth_bloc.dart
+    │   │   ├── auth_event.dart
+    │   │   └── auth_state.dart
+    │   └── profile
+    │       ├── profile_bloc.dart
+    │       ├── profile_event.dart
+    │       └── profile_state.dart
+    ├── cubits
+    │   ├── login
+    │   │   ├── login_cubit.dart
+    │   │   └── login_state.dart
+    │   └── sign_up
+    │       ├── sign_up_cubit.dart
+    │       └── sign_up_state.dart
+    ├── pages
+    │   ├── login
+    │   │   ├── login_option.dart
+    │   │   └── login_page.dart
+    │   ├── profile
+    │   │   └── profile_page.dart
+    │   └── signup
+    │       ├── signup_option.dart
+    │       └── signup_page.dart
+    └── widgets
+        ├── custom_app_bar.dart
+        ├── custom_nav_bar.dart
+        └── widgets.dart
+```
 
 ## Usage
 **Authentication Flow**
