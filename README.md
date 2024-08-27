@@ -1,4 +1,3 @@
-
 # Flutter Firebase Authentication with BLoC and Clean Architecture
 
 ## Project Overview
@@ -9,6 +8,9 @@ This Flutter project demonstrates the implementation of Firebase Authentication 
 * **Firebase Authentication**: Supports email/password authentication.
 * **BLoC for State Management**: Manages authentication state and ensures a reactive user interface.
 * **Clean Architecture**: Separates the codebase into presentation, domain, and data layers
+
+![Screenshot 2024-07-29 at 4 04 07 PM](https://github.com/user-attachments/assets/8aa6f44c-f461-4a77-af6d-27654a91773d)
+
 
 ### Getting Started
 
