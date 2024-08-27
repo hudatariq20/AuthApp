@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "493506622280",
+    "project_id": "authworkflow-2259d",
+    "storage_bucket": "authworkflow-2259d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493506622280:android:4e352d70e31e0dd376797d",
+        "android_client_info": {
+          "package_name": "com.example.auth_ui"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMtSv0EWvJjz13cbZqx0ss2PAfeOSAVnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
